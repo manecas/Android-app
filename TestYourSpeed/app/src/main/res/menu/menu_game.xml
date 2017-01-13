@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".gameActivities.MainActivity">
+
+    <item
+        android:id="@+id/action_shuffle"
+        android:icon="@drawable/shuffle_78"
+        android:title="@string/shuffle"
+        android:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_replay"
+        android:icon="@drawable/restart_78"
+        android:title="@string/replay"
+        android:showAsAction="ifRoom"
+        />
+</menu>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_credits"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.luis.testyourspeed.gameActivities.CreditsActivity"
+    android:background="@drawable/app_gradient_bg"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/iv_isec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:onClick="onClickImageView"
+        android:src="@drawable/ic_isec" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_deis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="onClickImageView"
+            android:src="@drawable/ic_deis" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/computer_engineering"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="10dp"
+            android:gravity="center_horizontal|center_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="16/17"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:gravity="center_horizontal|center_vertical"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/credits_description"
+        android:textSize="24sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="40dp" />
+
+    <LinearLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/iv_pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_flag_pt_128" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Luís Soares 21240440"
+            android:textSize="24sp"
+            android:layout_marginStart="20dp"
+            android:gravity="center_horizontal|center_vertical"/>
+
+    </LinearLayout>
+
+</LinearLayout>

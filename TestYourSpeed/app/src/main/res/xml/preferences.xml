@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">         
+
+    <PreferenceCategory
+        android:title="@string/highscores_options">
+
+        <EditTextPreference
+            android:key="user_name"
+            android:title="@string/input_name"
+            android:icon="@drawable/user_78"
+            android:dialogIcon="@drawable/user_78" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/game_options">
+
+        <ListPreference
+            android:key="test_language"
+            android:title="@string/test_language"
+            android:defaultValue="0"
+            android:entries="@array/test_language"
+            android:entryValues="@array/test_language_values"
+            android:summary="English"
+            android:icon="@drawable/language_78"
+            android:dialogIcon="@drawable/language_78" />
+
+        <ListPreference
+            android:key="test_time"
+            android:title="@string/test_time"
+            android:defaultValue="60"
+            android:entries="@array/test_time"
+            android:entryValues="@array/test_time_values"
+            android:summary="01:00"
+            android:icon="@drawable/time_78"
+            android:dialogIcon="@drawable/time_78" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

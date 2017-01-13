@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TestYourSpeed</string>
+    <string name="singleplayer">Singleplayer</string>
+    <string name="multiplayer">Multiplayer</string>
+    <string name="highscores">Highscores</string>
+    <string name="credits">Credits</string>
+    <string name="computer_engineering">Computer Engineering</string>
+    <string name="credits_description">This is a mobile application developed for Mobile Architectures course</string>
+    <string name="highscores_title">HIGHSCORES</string>
+    <string name="words_per_minute">Words per minute:</string>
+    <string name="right">Right:</string>
+    <string name="wrong">Wrong:</string>
+    <string name="type_to_start">Type to start</string>
+    <string name="paused_type_start">Paused. Type to start</string>
+    <string name="your_score">Your score</string>
+    <string name="accuracy">Accuracy:</string>
+    <string name="right_words">Right words:</string>
+    <string name="wrong_words">Wrong words:</string>
+    <string name="wpm_result">WPM:</string>
+    <string name="accuracy_result">Accuracy(%):</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="replay">Replay</string>
+    <string name="rate">Rate</string>
+    <string name="settings">Settings</string>
+    <string name="save_result">Save result</string>
+    <string name="input_name">Input your name</string>
+    <string name="highscores_options">Highscores Options</string>
+    <string name="game_options">Game Options</string>
+    <string name="test_language">Test language</string>
+    <string name="test_time">Test time</string>
+    <string name="game_result">Game Result</string>
+    <string name="no_results">No Results!</string>
+
+    <!-- Language names-->
+    <string-array name="test_language">
+        <item>English</item>
+        <item>Portuguese</item>
+    </string-array>
+
+    <!-- Language values-->
+    <string-array name="test_language_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+    <!--Test time-->
+    <string-array name="test_time">
+        <item>1:00</item>
+        <item>3:00</item>
+        <item>5:00</item>
+    </string-array>
+
+    <!-- Language values-->
+    <string-array name="test_time_values">
+        <item>60</item>
+        <item>180</item>
+        <item>300</item>
+    </string-array>
+</resources>

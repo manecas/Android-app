@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">TestYourSpeed</string>
+    <string name="singleplayer">Um Jogador</string>
+    <string name="multiplayer">Multi Jogador</string>
+    <string name="highscores">Pontuações</string>
+    <string name="credits">Créditos</string>
+    <string name="computer_engineering">Engenharia Informática</string>
+    <string name="credits_description">Esta é uma aplicação desenvolvida para a unidade curricular Arquitecturas Móveis</string>
+    <string name="highscores_title">PONTUAÇÃO</string>
+    <string name="words_per_minute">Palavras por minuto</string>
+    <string name="right">Certas:</string>
+    <string name="wrong">Erradas:</string>
+    <string name="type_to_start">Escreve para começar</string>
+    <string name="paused_type_start">Pausado. Esreve para começar</string>
+    <string name="your_score">O teu resultado</string>
+    <string name="accuracy">Precisão:</string>
+    <string name="right_words">Palavras certas:</string>
+    <string name="wrong_words">Palavras erradas:</string>
+    <string name="wpm_result">PPM:</string>
+    <string name="accuracy_result">Precisão(%):</string>
+    <string name="shuffle">Baralhar</string>
+    <string name="replay">Repetir</string>
+    <string name="rate">Avaliar</string>
+    <string name="settings">Definições</string>
+    <string name="save_result">Guarda pontuação</string>
+    <string name="input_name">Insira o seu nome</string>
+    <string name="highscores_options">Definições das pontuações</string>
+    <string name="game_options">Definições de Jogo</string>
+    <string name="test_language">Linguagem do teste</string>
+    <string name="test_time">Tempo do teste</string>
+    <string name="game_result">Resultado do jogo</string>
+    <string name="no_results">Sem resultados!</string>
+
+    <!-- Language names-->
+    <string-array name="test_language">
+        <item>Inglês</item>
+        <item>Português</item>
+    </string-array>
+
+    <!-- Language values-->
+    <string-array name="test_language_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+    <!--Test time-->
+    <string-array name="test_time">
+        <item>0:10</item>
+        <item>1:00</item>
+        <item>3:00</item>
+        <item>5:00</item>
+    </string-array>
+
+    <!-- Language values-->
+    <string-array name="test_time_values">
+        <item>10</item>
+        <item>60</item>
+        <item>180</item>
+        <item>300</item>
+    </string-array>
+</resources>

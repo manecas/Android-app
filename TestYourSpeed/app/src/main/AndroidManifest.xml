@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luis.testyourspeed">
+
+    <application
+        android:name=".gameModel.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/two_hands_78"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".gameActivities.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controller.SingleplayerActivity" />
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gameActivities.SingleplayerResultActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".gameActivities.HighscoresActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".gameActivities.CreditsActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

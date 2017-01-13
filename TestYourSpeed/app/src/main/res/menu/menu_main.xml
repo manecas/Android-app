@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".gameActivities.MainActivity">
+
+    <item
+        android:id="@+id/action_rate"
+        android:icon="@drawable/rating_78"
+        android:title="@string/rate"
+        android:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settings_78"
+        android:title="@string/settings"
+        android:showAsAction="ifRoom"
+        />
+</menu>
